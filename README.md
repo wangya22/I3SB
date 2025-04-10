@@ -2,7 +2,7 @@
 
 ![concept](./figs/main.png)
 
-Official PyTorch implementation of the paper [Implicit Image-to-Image Schrödinger Bridge for Image Restoration](https://arxiv.org/abs/2403.06069). Code modified from [I2SB](https://github.com/NVlabs/I2SB) and [CDDB](https://github.com/hyungjin-chung/CDDB).
+Official PyTorch implementation of the paper [Implicit Image-to-Image Schrödinger Bridge for Image Restoration](https://www.sciencedirect.com/science/article/abs/pii/S0031320325002870). Code modified from [I2SB](https://github.com/NVlabs/I2SB) and [CDDB](https://github.com/hyungjin-chung/CDDB).
 
 ## Getting started
 
@@ -36,10 +36,12 @@ Also, make sure that ```--dataset-dir``` specified matches the paths specified i
 
 If you find this work interesting, please consider citing
 ```
-@article{wang2024implicit,
-  title={Implicit Image-to-Image Schrodinger Bridge for Image Restoration},
+@article{wang2025implicit,
+  title={Implicit Image-to-Image Schr{\"o}dinger Bridge for image restoration},
   author={Wang, Yuang and Yoon, Siyeop and Jin, Pengfei and Tivnan, Matthew and Song, Sifan and Chen, Zhennong and Hu, Rui and Zhang, Li and Li, Quanzheng and Chen, Zhiqiang and others},
-  journal={arXiv preprint arXiv:2403.06069},
-  year={2024}
+  journal={Pattern Recognition},
+  pages={111627},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
